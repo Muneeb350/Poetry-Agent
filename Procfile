@@ -1,1 +1,1 @@
-web: chainlit run poet.py -w --port 8000
+web: chainlit run poet.py --port $PORT --host 0.0.0.0
